@@ -10,8 +10,5 @@ console.log(`You are Player ${playerId[0]}.`)
 playerId.push(`2`)
 console.log(playerId)
 
-let num = 7
-let num = 
-
 consol.log(num + string)
 console.log(string + num)
