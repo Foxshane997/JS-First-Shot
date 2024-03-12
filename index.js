@@ -12,3 +12,6 @@ console.log(playerId)
 
 consol.log(num + string)
 console.log(string + num)
+
+// after class 
+
