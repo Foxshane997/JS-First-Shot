@@ -1,0 +1,19 @@
+body {
+    background-color: lightgray;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 100px;
+    margin-top: 1em;
+}
+
+.h1-contain {
+    background: lightcoral;
+    border-top: 2px solid black;
+    width: 100vw;
+    height: 300px;
+}
+
