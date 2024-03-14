@@ -30,3 +30,21 @@
 //     console.log('A is true!')
 // }
 
+// for (let i = 1; i <= 5; i++) {
+//     console.log(`hello world`, i);
+// }
+
+
+// let username = "";
+
+// while(username === "" || username === null){
+//     username = window.prompt(`Enter Username`);
+// }
+//     console.log(`Hello ${username}`);
+
+
+/*----------------------------------------------------------------------------------------------------------------------------- */
+
+for (let i = 1; i <= 10; i++){
+    console.log(i);
+}
