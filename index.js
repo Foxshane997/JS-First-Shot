@@ -22,29 +22,49 @@
 
 // Day Two  --
 
-// let a = '0'
-// let b = '0'
-// console.log(a == b)
-
-// if (a){
-//     console.log('A is true!')
-// }
-
-// for (let i = 1; i <= 5; i++) {
-//     console.log(`hello world`, i);
-// }
-
-
-// let username = "";
-
-// while(username === "" || username === null){
-//     username = window.prompt(`Enter Username`);
-// }
-//     console.log(`Hello ${username}`);
-
-
-/*----------------------------------------------------------------------------------------------------------------------------- */
-
 for (let i = 1; i <= 10; i++){
     console.log(i);
 }
+/*----------------------------------------------------------------------------------------------------------------------------- */
+
+/*References */
+
+
+let user = {
+    firstName: 'Eli',
+    lastName: 'Hale'
+}
+
+// ?
+function fullName(){
+ 	console.log (`${user.firstName} ${user.lastName}`)
+  
+}
+
+
+let a = 10
+let b = 5
+let c = 6
+let d = 4
+
+// ?
+
+let numbers = [a, b, c, d]
+let result = 0
+
+for (let i=0; i < numbers.length; i++) {
+  result += numbers[i];
+}
+console.log(result) /*keep outside the loop so its a single number displayed*/
+
+
+
+function sum(){
+
+}
+
+// It should be called like this and should return 20:
+let output = sum(4, 6, 10)
+console.log('Returned', output)
+
+/*End of reference */
