@@ -67,4 +67,18 @@ function sum(){
 let output = sum(4, 6, 10)
 console.log('Returned', output)
 
+
+let secretMessage= document.querySelector('.secret-message')
+
+function toggleVisibility(){
+    if(secretMessage.style.display === 'block'){
+        secretMessage.style.display = 'none'
+    }   else {
+        secretMessage.style.display = 'block'
+    }
+}
+
+document.body.addEventListener('mouseover', toggleVisibility)
+document.body.addEventListener('mouseout', toggleVisibility)
+
 /*End of reference */
